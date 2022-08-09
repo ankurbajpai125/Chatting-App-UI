@@ -1,0 +1,38 @@
+.cont {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: -75px;
+    top: 33px;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.navb{
+    background-color: rgb(236, 248, 248) ;
+    width: 367px;
+    height: 200px;
+}
+
+.scrollmenu {
+    display: flex;
+    height: 150px;
+    overflow: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding-left: 20px;
+    scroll-behavior: smooth;
+}
+.scrollmenu::-webkit-scrollbar {
+    display: none;
+}
+
+.item {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+
+    margin-top: 25px;
+    margin-right: 20px;
+    margin-bottom: 2px;
+
+}
